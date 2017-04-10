@@ -1,0 +1,5 @@
+package cs.niu.edu.messenger.exception;
+
+public class DataNotFoundExceptionMapper {
+
+}

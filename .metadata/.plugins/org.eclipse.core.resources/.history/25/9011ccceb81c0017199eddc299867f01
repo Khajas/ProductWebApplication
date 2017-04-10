@@ -1,0 +1,17 @@
+package cs.niu.edu.messenger.model;
+
+public class ErrorMessage {
+	private String errorMessage;
+	private int errorCode;
+	private String documentationLink;
+	public ErrorMessage(){
+		
+	}
+	public ErrorMessage(String errorMessage, int errorCode, String documentationLink) {
+		super();
+		this.errorMessage = errorMessage;
+		this.errorCode = errorCode;
+		this.documentationLink = documentationLink;
+	}
+	
+}

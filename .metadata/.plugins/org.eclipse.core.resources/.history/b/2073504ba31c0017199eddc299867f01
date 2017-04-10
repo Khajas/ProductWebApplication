@@ -1,0 +1,7 @@
+package cs.niu.edu.messenger.service;
+
+import cs.niu.edu.messenger.database.DatabaseClass;
+
+public class CommentService {
+	private Map<Long, Message> messages= DatabaseClass.getMessages();
+}

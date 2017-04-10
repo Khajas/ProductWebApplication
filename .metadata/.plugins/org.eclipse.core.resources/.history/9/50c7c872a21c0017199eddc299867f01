@@ -1,0 +1,19 @@
+package cs.niu.edu.messenger.model;
+
+public class Comment {
+	private long id;
+	private String message;
+	private Date created;
+	private String author;
+	
+	public Comment(){}
+	public Comment(long id, String message, Date created, String author) {
+		super();
+		this.id = id;
+		this.message = message;
+		this.created = created;
+		this.author = author;
+	}
+	
+
+}

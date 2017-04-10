@@ -1,0 +1,13 @@
+package cs.niu.edu.messenger.resources;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/")	// Since path is referenced from message resource
+public class CommentResource {
+	
+	@GET
+	public String getComments(){
+		return "new sub resource";
+	}
+}

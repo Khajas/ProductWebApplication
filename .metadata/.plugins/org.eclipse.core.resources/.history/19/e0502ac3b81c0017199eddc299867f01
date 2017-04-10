@@ -1,0 +1,5 @@
+package cs.niu.edu.messenger.model;
+
+public class ErrorMessage {
+
+}

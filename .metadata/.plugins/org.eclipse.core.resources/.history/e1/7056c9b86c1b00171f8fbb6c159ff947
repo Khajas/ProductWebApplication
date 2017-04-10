@@ -1,0 +1,15 @@
+package cs.niu.edu.messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import cs.niu.edu.messenger.database.DatabaseClass;
+import cs.niu.edu.messenger.model.Message;
+
+public class MessageService {
+	private Map<Long, Message> messages=DatabaseClass.getMessages();
+	public List<Message> getAllMessges(){
+		return new ArrayList<>(messages.values());
+	}
+}

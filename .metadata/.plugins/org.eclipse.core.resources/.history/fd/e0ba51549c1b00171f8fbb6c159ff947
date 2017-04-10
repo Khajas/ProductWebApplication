@@ -1,0 +1,13 @@
+package cs.niu.edu.messenger.service;
+
+import java.util.Map;
+
+import cs.niu.edu.messenger.database.DatabaseClass;
+import cs.niu.edu.messenger.model.Profile;
+
+public class ProfileService {
+	private Map<String, Profile> profiles=DatabaseClass.getProfiles();
+	public List<Profile> getAllProfiles(){
+		return new ArrayList<Profile>(profiles.values)();
+	}
+}

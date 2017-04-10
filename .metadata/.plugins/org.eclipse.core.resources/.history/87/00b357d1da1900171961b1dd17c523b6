@@ -1,0 +1,13 @@
+package cs.niu.edu.messenger.service;
+
+import java.util.List;
+
+import cs.niu.edu.messenger.model.Message;
+
+public class MessageService {
+	public List<Message> getAllMessges(){
+		Message m1=new Message(1L,"Message 1","Anwar");
+		Message m1=new Message(2L,"Message 2","Zaffar");
+		return null;
+	}
+}
